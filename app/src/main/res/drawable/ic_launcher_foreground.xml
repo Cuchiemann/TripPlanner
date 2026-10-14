@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TripPlanner icon, drawn for this app: a map pin over a short route line.
+     108x108 adaptive canvas; everything stays inside the 66dp safe circle. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Route: three short dashes under the pin. -->
+    <path
+        android:pathData="M36,80 L44,80 M50,80 L58,80 M64,80 L72,80"
+        android:strokeColor="#FFFFFF"
+        android:strokeAlpha="0.7"
+        android:strokeLineCap="round"
+        android:strokeWidth="3.5" />
+    <!-- Pin with a round hole. -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M54,28 C42.4,28 33,37.4 33,49 C33,63.5 54,76 54,76 C54,76 75,63.5 75,49 C75,37.4 65.6,28 54,28 Z M54,41 C49.6,41 46,44.6 46,49 C46,53.4 49.6,57 54,57 C58.4,57 62,53.4 62,49 C62,44.6 58.4,41 54,41 Z" />
+</vector>
